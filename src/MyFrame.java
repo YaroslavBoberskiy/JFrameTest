@@ -26,6 +26,9 @@ public class MyFrame extends JPanel {
         g.drawOval(130, 100, 100, 100);
         g.setColor(Color.BLUE);
         g.drawOval(200, 100, 100, 100);
+        g.setFont(new Font("Serif", Font.BOLD, 16));
+        g.setColor(Color.GREEN);
+        g.drawString("Circle", 100, 100);
     }
 
     public static void main(String[] args) {
